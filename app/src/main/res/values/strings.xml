@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Recieptgyűjtő alkalmazás</string>
+    <string name="username">felhasználónév</string>
+    <string name="password">Jelszó</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="registration">Regisztrálás</string>
+    <string name="email_address">E-mail cím</string>
+    <string name="password_again">Jelszó megerősítése</string>
+    <string name="cancel">Mégsem</string>
+    <string name="phone_number">Telefonszám</string>
+    <string name="address">Postai cím</string>
+    <string name="product_description">Termék leírás</string>
+    <string-array name="sampleTypes">
+        <item>teszt 1</item>
+        <item>teszt 2</item>
+    </string-array>
+    <string-array name="timeTypes">
+        <item>perc</item>
+        <item>óra</item>
+        <item>nap</item>
+    </string-array>
+    <string-array name="difficulties">
+        <item>Könnyű</item>
+        <item>Közepes</item>
+        <item>Nehéz</item>
+        <item>Egyéb</item>
+    </string-array>
+
+        <string name="take_photo">Take Photo</string>
+        <string name="start_capture">Start Capture</string>
+        <string name="stop_capture">Stop Capture</string>
+
+</resources>

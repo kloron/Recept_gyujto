@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:elevation="8dp"
+    app:cardCornerRadius="4dp"
+    tools:ignore="MissingClass">
+
+    <LinearLayout
+        android:id="@+id/sqliteLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="3dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/kartyaSQL"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="3dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/modulSQL"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="3dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+        <TextView
+            android:id="@+id/nevSQL"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="3dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/varosSQL"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="3dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

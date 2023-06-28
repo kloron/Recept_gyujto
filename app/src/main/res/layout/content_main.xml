@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.gyula.recipebook.ShowRecipesActivity"
+    tools:showIn="@layout/activity_main">
+
+
+<!--    <Button-->
+<!--        android:id="@+id/fab"-->
+<!--        android:layout_width="155dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginTop="430dp"-->
+<!--        android:layout_marginEnd="46dp"-->
+<!--        android:background="@drawable/bkg"-->
+<!--        android:text="@string/scan" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/scanKartya"-->
+<!--        android:layout_width="155dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginStart="34dp"-->
+<!--        android:layout_marginTop="430dp"-->
+<!--        android:background="@drawable/bkg"-->
+<!--        android:text="@string/scanKartya" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/nevEsVAros"-->
+<!--        android:layout_width="155dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginTop="355dp"-->
+<!--        android:layout_marginEnd="46dp"-->
+<!--        android:background="@drawable/bkg"-->
+<!--        android:onClick="goToNevEsVaros"-->
+<!--        android:text="@string/nevEsVaros" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/next"-->
+<!--        android:layout_width="371dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginStart="69dp"-->
+<!--        android:layout_marginTop="517dp"-->
+<!--        android:layout_marginEnd="75dp"-->
+<!--        android:onClick="sendScan"-->
+<!--        android:text="@string/next"-->
+<!--        android:background="@drawable/bkg"-->
+<!--        />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/manually"-->
+<!--        android:layout_width="155dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginStart="34dp"-->
+<!--        android:layout_marginTop="355dp"-->
+<!--        android:onClick="goToManually"-->
+<!--        android:text="@string/manually"-->
+<!--        android:background="@drawable/bkg"-->
+<!--        />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/lekerdez"-->
+<!--        android:layout_width="155dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginTop="280dp"-->
+<!--        android:layout_marginEnd="46dp"-->
+<!--        android:background="@drawable/bkg"-->
+<!--        android:onClick="goToKeres"-->
+<!--        android:text="@string/query" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/kereses"-->
+<!--        android:layout_width="155dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginStart="34dp"-->
+<!--        android:layout_marginTop="280dp"-->
+<!--        android:background="@drawable/bkg"-->
+<!--        android:text="@string/search" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/EditTextHTTP"-->
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:autofillHints="Adja meg a linket"-->
+<!--        android:inputType="text"-->
+<!--        android:textSize="18sp"-->
+<!--        tools:ignore="LabelFor" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewID"-->
+<!--        android:layout_width="270dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_below="@id/EditTextHTTP"-->
+<!--        android:layout_toEndOf="@+id/textViewIDname"-->
+<!--        android:textSize="18sp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewKartya"-->
+<!--        android:layout_width="270dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_below="@id/textViewID"-->
+<!--        android:layout_toEndOf="@+id/textViewKartyaname"-->
+<!--        android:textSize="18sp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewModul"-->
+<!--        android:layout_width="270dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_below="@id/textViewKartya"-->
+<!--        android:layout_toEndOf="@+id/textViewModulname"-->
+<!--        android:textSize="18sp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewNev"-->
+<!--        android:layout_width="270dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_below="@id/textViewModul"-->
+<!--        android:layout_toEndOf="@+id/textViewNevname"-->
+<!--        android:textSize="18sp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewVaros"-->
+<!--        android:layout_width="270dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_below="@id/textViewNev"-->
+<!--        android:layout_toEndOf="@+id/textViewVarosname"-->
+<!--        android:textSize="18sp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewIDname"-->
+<!--        android:layout_width="25dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_below="@id/EditTextHTTP"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:text="@string/idName"-->
+<!--        android:textSize="18sp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewKartyaname"-->
+<!--        android:layout_width="65dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_below="@id/textViewID"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:text="@string/kartyaName"-->
+<!--        android:textSize="18sp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewModulname"-->
+<!--        android:layout_width="65dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_below="@id/textViewKartya"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:text="@string/modulName"-->
+<!--        android:textSize="18sp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewNevname"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_below="@id/textViewModul"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:text="@string/nevName"-->
+<!--        android:textSize="18sp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewVarosname"-->
+<!--        android:layout_width="60dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_below="@id/textViewNev"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:text="@string/varosName"-->
+<!--        android:textSize="18sp" />-->
+
+<!--    <ProgressBar-->
+<!--        android:id="@+id/progressBar"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginStart="338dp"-->
+<!--        android:layout_marginTop="516dp"-->
+<!--        android:layout_marginEnd="25dp" />-->
+
+<!--    <ProgressBar-->
+<!--        android:id="@+id/progressBarHoriz"-->
+<!--        style="?android:attr/progressBarStyleHorizontal"-->
+<!--        android:layout_width="263dp"-->
+<!--        android:layout_height="5dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginLeft="69dp"-->
+<!--        android:layout_marginTop="587dp"-->
+<!--        android:indeterminate="false"-->
+<!--        android:max="100"-->
+<!--        android:minWidth="200dp"-->
+<!--        android:minHeight="50dp"-->
+<!--        android:progress="1" />-->
+
+
+</RelativeLayout>

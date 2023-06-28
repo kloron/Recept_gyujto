@@ -1,0 +1,68 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.gyula.recipebook.ShowRecipesActivity">
+
+    <item
+        android:id="@+id/addnewrecipe"
+        android:orderInCategory="1"
+        android:title="Új recept hozzáadása"
+        android:onClick="goToAddNewRecipe"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/deleterecipe"
+        android:orderInCategory="1"
+        android:title="Recept Törlése"
+        android:onClick="deleteRecipe"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/updaterecipe"
+        android:orderInCategory="1"
+        android:title="Recept Módosítása"
+        android:onClick="updateRecipe"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/addocr"
+        android:orderInCategory="1"
+        android:title="Recept képből szövegbeolvasással"
+        android:onClick="addOcr"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/openocr"
+        android:orderInCategory="1"
+        android:title="OCR recept megnyitás"
+        android:onClick="openOcr"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/shoplist"
+        android:orderInCategory="1"
+        android:title="Bevásárló lista"
+        android:onClick="goShoplist"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/cookbook"
+        android:orderInCategory="1"
+        android:title="Szakácskönyv"
+        android:onClick="goCookbook"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/deleteall"
+        android:orderInCategory="1"
+        android:title="Minden recept törlése"
+        android:onClick="deleteAll"
+        app:showAsAction="never"
+        />
+
+
+
+</menu>
